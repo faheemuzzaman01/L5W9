@@ -5,7 +5,7 @@ const methodOverride = require("method-override");
 const session = require("express-session");
 const bcrypt = require("bcryptjs");
 const MongoStore = require("connect-mongo");
-const User = require("./models/User");
+const User = require("./models/Users");
 
 const app = express();
 
